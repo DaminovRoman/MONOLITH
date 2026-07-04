@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>MONOLITH — Автомобили, которые меняют ощущение движения</title>
+<meta name="description" content="MONOLITH — бутик-шоурум премиальных автомобилей. Закрытые показы, персональный менеджер, доставка, детейлинг, страхование, trade-in. Запишитесь на персональную консультацию.">
+<meta name="theme-color" content="#0a0a0b">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://monolith.example/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="MONOLITH — Автомобили, которые меняют ощущение движения">
+<meta property="og:description" content="Коллекция автомобилей премиального сегмента с персональным сопровождением покупки. Закрытые показы, доставка, детейлинг, trade-in.">
+<meta property="og:image" content="/og-cover.jpg">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="MONOLITH">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MONOLITH — Автомобильный бутик будущего">
+<meta name="twitter:description" content="Персональное сопровождение покупки премиальных автомобилей.">
+
+<!-- Preconnects & preloads -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="preload" as="style" href="2.css">
+<link rel="stylesheet" href="2.css">
+
+<!-- JSON-LD: AutoDealer -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "MONOLITH",
+  "description": "Бутик-шоурум премиальных автомобилей с персональным сопровождением покупки.",
+  "image": "/og-cover.jpg",
+  "priceRange": "от 15 000 000 ₽",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Николоямская наб., 11",
+    "addressLocality": "Москва",
+    "postalCode": "109240",
+    "addressCountry": "RU"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 55.7458,
+    "longitude": 37.6553
+  },
+  "telephone": "+7-495-000-00-00",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "10:00",
+    "closes": "21:00"
+  },
+  "sameAs": [
+    "https://t.me/monolith_showroom",
+    "https://instagram.com/monolith.showroom"
+  ]
+}
+</script>
+
+<!-- JSON-LD: LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "MONOLITH Showroom",
+  "image": "/og-cover.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Николоямская наб., 11",
+    "addressLocality": "Москва",
+    "addressCountry": "RU"
+  },
+  "telephone": "+7-495-000-00-00"
+}
+</script>
+
+<!-- JSON-LD: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Как записаться на тест-драйв?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Оставьте заявку на сайте — персональный менеджер свяжется с вами в течение 15 минут и согласует удобное время закрытого показа." }
+    },
+    {
+      "@type": "Question",
+      "name": "Есть ли программа trade-in?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Да, мы принимаем автомобиль в зачёт стоимости новой покупки с оценкой в течение одного дня." }
+    },
+    {
+      "@type": "Question",
+      "name": "Возможна ли доставка автомобиля?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Да, мы организуем доставку в любой регион с полным юридическим сопровождением сделки." }
+    }
+  ]
+}
+</script>
+
+<!-- JSON-LD: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://monolith.example/" },
+    { "@type": "ListItem", "position": 2, "name": "Коллекция", "item": "https://monolith.example/#collection" },
+    { "@type": "ListItem", "position": 3, "name": "Контакты", "item": "https://monolith.example/#contacts" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Skip link for a11y -->
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<!-- Signature element: Light Seam — scroll progress + section index -->
+<div class="light-seam" aria-hidden="true">
+  <div class="light-seam__fill" id="seamFill"></div>
+  <div class="light-seam__ticks" id="seamTicks"></div>
+</div>
+
+<!-- Floating nav -->
+<header class="nav" id="siteNav">
+  <a href="#top" class="nav__logo" aria-label="MONOLITH — на главную">
+    <span class="nav__logo-mark" aria-hidden="true"></span>
+    MONOLITH
+  </a>
+  <nav class="nav__links" aria-label="Основная навигация">
+    <a href="#philosophy">Философия</a>
+    <a href="#collection">Коллекция</a>
+    <a href="#configurator">Конфигуратор</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#why-us">Преимущества</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <button class="btn btn--ghost nav__cta" data-open-consult>Тест-драйв</button>
+  <button class="nav__burger" id="navBurger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu" hidden>
+  <nav aria-label="Мобильная навигация">
+    <a href="#philosophy">Философия</a>
+    <a href="#collection">Коллекция</a>
+    <a href="#configurator">Конфигуратор</a>
+    <a href="#gallery">Галерея</a>
+    <a href="#why-us">Преимущества</a>
+    <a href="#team">Команда</a>
+    <a href="#stories">Истории</a>
+    <a href="#process">Как купить</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <button class="btn btn--amber" data-open-consult>Записаться на тест-драйв</button>
+</div>
+
+<main id="main">
+
+  <!-- 1. HERO -->
+  <section class="hero" id="top">
+    <div class="hero__ambient" aria-hidden="true">
+      <div class="hero__beam hero__beam--1"></div>
+      <div class="hero__beam hero__beam--2"></div>
+      <div class="hero__beam hero__beam--3"></div>
+    </div>
+
+    <div class="hero__grid">
+      <div class="hero__copy" data-reveal>
+        <p class="eyebrow">Bugatti · Ferrari · Bentley · Rolls-Royce</p>
+        <h1 class="hero__title">
+          Автомобили,<br>
+          которые меняют<br>
+          <span class="hero__title-accent">ощущение движения</span>
+        </h1>
+        <p class="hero__subtitle">Коллекция автомобилей премиального сегмента с персональным сопровождением покупки — от закрытого показа до передачи ключей.</p>
+        <div class="hero__actions">
+          <button class="btn btn--amber btn--magnetic" data-open-consult>
+            <span>Записаться на тест-драйв</span>
+          </button>
+          <a href="#collection" class="btn btn--ghost btn--magnetic">
+            <span>Посмотреть коллекцию</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__stage" data-reveal-delay>
+        <div class="hero__car-wrap">
+          <img
+            src="img/1.jpg"
+            alt="Силуэт спортивного купе премиум-класса в тёмном выставочном пространстве"
+            class="hero__car"
+            width="1600" height="1000"
+            fetchpriority="high"
+          >
+          <div class="hero__car-sweep" aria-hidden="true"></div>
+          <div class="hero__reflection" aria-hidden="true"></div>
+        </div>
+        <div class="hero__floor" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <!-- 2. PHILOSOPHY -->
+  <section class="philosophy section" id="philosophy">
+    <div class="section__inner philosophy__grid">
+      <div class="philosophy__label" data-reveal>
+        <p class="eyebrow">Философия</p>
+        <h2 class="section__title">Не автосалон.<br>Кабинет частного куратора.</h2>
+      </div>
+      <div class="philosophy__body" data-reveal-delay>
+        <p class="philosophy__lead">MONOLITH существует с 2014 года для тех, кто покупает автомобиль не по каталогу, а по ощущению.</p>
+        <p class="philosophy__text">Мы не продаём модели — мы подбираем состояние. Каждая встреча начинается с разговора о том, как вы двигаетесь по городу, а не с прайс-листа. Решение созревает в тишине шоурума, без давления и очередей.</p>
+        <div class="philosophy__stats">
+          <div class="stat">
+            <span class="stat__num">11</span>
+            <span class="stat__label">лет на рынке</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">340+</span>
+            <span class="stat__label">частных клиентов</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">92%</span>
+            <span class="stat__label">возвращаются повторно</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. COLLECTION -->
+  <section class="collection section" id="collection">
+    <div class="section__inner">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Коллекция</p>
+        <h2 class="section__title">Три характера.<br>Один стандарт совершенства.</h2>
+      </div>
+    </div>
+
+    <div class="collection__track" id="collectionTrack">
+
+      <article class="car-card" data-reveal tabindex="0">
+        <div class="car-card__media">
+          <img src="img/2.jpg" alt="Гиперкар в матово-чёрном исполнении на тёмном подиуме" loading="lazy" width="1400" height="900">
+        </div>
+        <div class="car-card__body">
+          <h3 class="car-card__name">VELOCE 918</h3>
+          <p class="car-card__tag">Гиперкар · Атмосферный V10</p>
+          <div class="car-card__specs">
+            <div class="spec"><span class="spec__val">2.4с</span><span class="spec__lbl">0–100 км/ч</span></div>
+            <div class="spec"><span class="spec__val">918 л.с.</span><span class="spec__lbl">Мощность</span></div>
+            <div class="spec"><span class="spec__val">352 км/ч</span><span class="spec__lbl">Макс. скорость</span></div>
+          </div>
+          <div class="car-card__footer">
+            <span class="car-card__price">от 48 900 000 ₽</span>
+            <button class="btn btn--outline btn--sm" data-open-consult>Записаться</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-reveal tabindex="0">
+        <div class="car-card__media">
+          <img src="img/3.jpg" alt="Гран-туризмо в графитовом цвете в вечернем свете" loading="lazy" width="1400" height="900">
+        </div>
+        <div class="car-card__body">
+          <h3 class="car-card__name">ARGENTO GT</h3>
+          <p class="car-card__tag">Гран-туризмо · Твин-турбо V8</p>
+          <div class="car-card__specs">
+            <div class="spec"><span class="spec__val">3.1с</span><span class="spec__lbl">0–100 км/ч</span></div>
+            <div class="spec"><span class="spec__val">640 л.с.</span><span class="spec__lbl">Мощность</span></div>
+            <div class="spec"><span class="spec__val">312 км/ч</span><span class="spec__lbl">Макс. скорость</span></div>
+          </div>
+          <div class="car-card__footer">
+            <span class="car-card__price">от 24 500 000 ₽</span>
+            <button class="btn btn--outline btn--sm" data-open-consult>Записаться</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-reveal tabindex="0">
+        <div class="car-card__media">
+          <img src="img/4.jpg" alt="Электрический флагман серебристого цвета в тёмной студии" loading="lazy" width="1400" height="900">
+        </div>
+        <div class="car-card__body">
+          <h3 class="car-card__name">LUMEN ONE</h3>
+          <p class="car-card__tag">Электро-флагман · Полный привод</p>
+          <div class="car-card__specs">
+            <div class="spec"><span class="spec__val">2.8с</span><span class="spec__lbl">0–100 км/ч</span></div>
+            <div class="spec"><span class="spec__val">1020 л.с.</span><span class="spec__lbl">Мощность</span></div>
+            <div class="spec"><span class="spec__val">690 км</span><span class="spec__lbl">Запас хода</span></div>
+          </div>
+          <div class="car-card__footer">
+            <span class="car-card__price">от 19 900 000 ₽</span>
+            <button class="btn btn--outline btn--sm" data-open-consult>Записаться</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- 4. CONFIGURATOR -->
+  <section class="configurator section" id="configurator">
+    <div class="section__inner">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Конфигуратор</p>
+        <h2 class="section__title">Соберите свой экземпляр.</h2>
+      </div>
+
+      <div class="configurator__panel" data-reveal-delay>
+        <div class="configurator__stage">
+          <img id="configCar" src="img/5.jpg" alt="Предпросмотр конфигурации автомобиля" width="1600" height="1000" class="configurator__car-img">
+          <div class="configurator__glow" id="configGlow" aria-hidden="true"></div>
+        </div>
+
+        <div class="configurator__controls">
+          <div class="config-group">
+            <h3 class="config-group__title">Цвет кузова</h3>
+            <div class="swatches" role="radiogroup" aria-label="Цвет кузова">
+              <button class="swatch is-active" style="--sw-color:#1a1a1d" data-color="#1a1a1d" role="radio" aria-checked="true" aria-label="Обсидиан чёрный"></button>
+              <button class="swatch" style="--sw-color:#8b8f96" data-color="#8b8f96" role="radio" aria-checked="false" aria-label="Платиновый серый"></button>
+              <button class="swatch" style="--sw-color:#d9a25c" data-color="#d9a25c" role="radio" aria-checked="false" aria-label="Янтарный металлик"></button>
+              <button class="swatch" style="--sw-color:#5ec8e8" data-color="#5ec8e8" role="radio" aria-checked="false" aria-label="Лазерный синий"></button>
+            </div>
+          </div>
+
+          <div class="config-group">
+            <h3 class="config-group__title">Диски</h3>
+            <div class="pill-select" role="radiogroup" aria-label="Диски">
+              <button class="pill is-active" role="radio" aria-checked="true" data-wheels="21″ Forged">21″ Forged</button>
+              <button class="pill" role="radio" aria-checked="false" data-wheels="22″ Carbon">22″ Carbon</button>
+              <button class="pill" role="radio" aria-checked="false" data-wheels="20″ Classic">20″ Classic</button>
+            </div>
+          </div>
+
+          <div class="config-group">
+            <h3 class="config-group__title">Салон</h3>
+            <div class="pill-select" role="radiogroup" aria-label="Салон">
+              <button class="pill is-active" role="radio" aria-checked="true" data-interior="Чёрная кожа">Чёрная кожа</button>
+              <button class="pill" role="radio" aria-checked="false" data-interior="Кремовый Alcantara">Кремовый Alcantara</button>
+              <button class="pill" role="radio" aria-checked="false" data-interior="Коньячная кожа">Коньячная кожа</button>
+            </div>
+          </div>
+
+          <div class="config-group">
+            <h3 class="config-group__title">Освещение салона</h3>
+            <div class="pill-select" role="radiogroup" aria-label="Освещение">
+              <button class="pill is-active" role="radio" aria-checked="true" data-light="Янтарное">Янтарное</button>
+              <button class="pill" role="radio" aria-checked="false" data-light="Лазерное">Лазерное</button>
+              <button class="pill" role="radio" aria-checked="false" data-light="Нейтральное">Нейтральное</button>
+            </div>
+          </div>
+
+          <div class="configurator__readout">
+            <div class="readout-row"><span>Конфигурация</span><span id="readoutConfig">Обсидиан · 21″ Forged · Чёрная кожа</span></div>
+            <div class="readout-row"><span>Ориентировочная цена</span><span id="readoutPrice" class="readout-price">48900000₽</span></div>
+          </div>
+
+          <button class="btn btn--amber btn--full btn--magnetic" data-open-consult>Обсудить эту конфигурацию</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="section__inner">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Галерея</p>
+        <h2 class="section__title">Каждый кадр — отдельная композиция.</h2>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <figure class="gallery__item gallery__item--a" data-reveal>
+        <img src="img/6.jpg" alt="Автомобиль в движении на ночной трассе" loading="lazy" width="1600" height="1000">
+      </figure>
+      <figure class="gallery__item gallery__item--b" data-reveal>
+        <img src="img/7.jpg" alt="Автомобиль в движении на ночной трассе" loading="lazy" width="1600" height="1000">
+      </figure>
+      <figure class="gallery__item gallery__item--c" data-reveal>
+        <img src="img/8.jpg" alt="Интерьер салона премиального автомобиля" loading="lazy" width="1400" height="1750">
+      </figure>
+      <figure class="gallery__item gallery__item--d" data-reveal>
+        <img src="img/9.png" alt="Диск и суппорт спортивного автомобиля" loading="lazy" width="1600" height="1067">
+      </figure>
+      <figure class="gallery__item gallery__item--e" data-reveal>
+        <img src="img/9.jpg" alt="Силуэт автомобиля на закате" loading="lazy" width="1400" height="1600">
+      </figure>
+    </div>
+  </section>
+
+  <!-- 6. WHY US -->
+  <section class="why-us section" id="why-us">
+    <div class="section__inner">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Почему выбирают нас</p>
+        <h2 class="section__title">Не слова.<br>Факты, которые вы почувствуете.</h2>
+      </div>
+      <div class="facts-grid">
+        <div class="fact-tile" data-reveal style="--tile-i: 0">
+          <span class="fact-tile__num">01</span>
+          <h3>Закрытые показы</h3>
+          <p>Просмотр автомобиля вне графика зала, без посторонних — только вы и модель.</p>
+        </div>
+        <div class="fact-tile" data-reveal style="--tile-i: 1">
+          <span class="fact-tile__num">02</span>
+          <h3>Персональный менеджер</h3>
+          <p>Один и тот же куратор сопровождает вас от первого звонка до сервисного контракта.</p>
+        </div>
+        <div class="fact-tile" data-reveal style="--tile-i: 2">
+          <span class="fact-tile__num">03</span>
+          <h3>Доставка автомобиля</h3>
+          <p>Передача ключей там, где удобно вам — офис, дом, аэропорт частных перелётов.</p>
+        </div>
+        <div class="fact-tile" data-reveal style="--tile-i: 3">
+          <span class="fact-tile__num">04</span>
+          <h3>Детейлинг и защита кузова</h3>
+          <p>Керамика, плёнка, полировка — автомобиль передаётся в идеальном состоянии.</p>
+        </div>
+        <div class="fact-tile" data-reveal style="--tile-i: 4">
+          <span class="fact-tile__num">05</span>
+          <h3>Страхование КАСКО+</h3>
+          <p>Расширенное покрытие с ремонтом у официального партнёра бренда.</p>
+        </div>
+        <div class="fact-tile" data-reveal style="--tile-i: 5">
+          <span class="fact-tile__num">06</span>
+          <h3>Лизинг и trade-in</h3>
+          <p>Гибкие финансовые схемы и приём вашего текущего автомобиля в зачёт за один день.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. TEAM -->
+  <section class="team section" id="team">
+    <div class="section__inner">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Команда</p>
+        <h2 class="section__title">Персональные консультанты.</h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card" data-reveal>
+          <img src="img/10.jpg" alt="Портрет консультанта Андрея Ковалёва" loading="lazy" width="600" height="700">
+          <h3>Андрей Ковалёв</h3>
+          <p class="team-card__role">Эксперт по гиперкарам</p>
+          <p class="team-card__cert">Сертификат производителя · 9 лет опыта</p>
+        </div>
+        <div class="team-card" data-reveal>
+          <img src="img/11.jpg" alt="Портрет консультанта Марии Соколовой" loading="lazy" width="600" height="700">
+          <h3>Мария Соколова</h3>
+          <p class="team-card__role">Эксперт по GT и люкс-седанам</p>
+          <p class="team-card__cert">Сертификат производителя · 7 лет опыта</p>
+        </div>
+        <div class="team-card" data-reveal>
+          <img src="img/12.jpg" alt="Портрет консультанта Ильи Разумовского" loading="lazy" width="600" height="700">
+          <h3>Илья Разумовский</h3>
+          <p class="team-card__role">Эксперт по электромобилям</p>
+          <p class="team-card__cert">Сертификат производителя · 5 лет опыта</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. STORIES -->
+  <section class="stories section" id="stories">
+    <div class="section__inner">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Истории клиентов</p>
+        <h2 class="section__title">Не отзывы. Истории покупки.</h2>
+      </div>
+    </div>
+
+    <article class="story" data-reveal>
+      <div class="story__media">
+        <img src="img/13.jpg" alt="Клиент получает ключи от нового автомобиля" loading="lazy" width="1400" height="1000">
+      </div>
+      <div class="story__text">
+        <p class="story__quote-num">История №014</p>
+        <h3>«Я не собирался покупать в тот вечер»</h3>
+        <p>Дмитрий пришёл посмотреть VELOCE 918 «просто из любопытства» после закрытия основного зала. Через сорок минут тишины и разговора о треке в Сочи он подписал предзаказ. Ключи передали через три недели — в аэропорту, перед его рейсом.</p>
+      </div>
+    </article>
+
+    <article class="story story--reverse" data-reveal>
+      <div class="story__media">
+        <img src="img/14.jpg" alt="Автомобиль на фоне заката, клиентская история" loading="lazy" width="1400" height="1000">
+      </div>
+      <div class="story__text">
+        <p class="story__quote-num">История №027</p>
+        <h3>«Trade-in занял один звонок»</h3>
+        <p>Елена меняла седан на LUMEN ONE. Оценку старого автомобиля провели за день, документы подготовили удалённо. На показе она уже знала цвет — оставалось только сесть за руль.</p>
+      </div>
+    </article>
+  </section>
+
+  <!-- 9. PROCESS -->
+  <section class="process section" id="process">
+    <div class="section__inner">
+      <div class="section__head" data-reveal>
+        <p class="eyebrow">Процесс покупки</p>
+        <h2 class="section__title">Пять шагов до передачи ключей.</h2>
+      </div>
+      <div class="process__layout">
+        <ol class="timeline">
+          <li class="timeline__item" data-reveal data-step="01">
+            <span class="timeline__num">01</span>
+            <div><h3>Консультация</h3><p>Разговор о том, как и где вы ездите — без прайс-листа и давления.</p></div>
+          </li>
+          <li class="timeline__item" data-reveal data-step="02">
+            <span class="timeline__num">02</span>
+            <div><h3>Закрытый показ</h3><p>Личная встреча с автомобилем в шоуруме, вне общего графика.</p></div>
+          </li>
+          <li class="timeline__item" data-reveal data-step="03">
+            <span class="timeline__num">03</span>
+            <div><h3>Конфигурация и финансы</h3><p>Подбор комплектации, лизинг или trade-in — под вашу ситуацию.</p></div>
+          </li>
+          <li class="timeline__item" data-reveal data-step="04">
+            <span class="timeline__num">04</span>
+            <div><h3>Подготовка автомобиля</h3><p>Детейлинг, керамическая защита, оформление страхования.</p></div>
+          </li>
+          <li class="timeline__item" data-reveal data-step="05">
+            <span class="timeline__num">05</span>
+            <div><h3>Передача ключей</h3><p>Доставка в удобное место и полное юридическое сопровождение.</p></div>
+          </li>
+        </ol>
+        <div class="process__mark" aria-hidden="true" data-reveal-delay>
+          <span class="process__mark-num" id="processMarkNum">01</span>
+          <span class="process__mark-total">/ 05</span>
+          <div class="process__mark-line"></div>
+          <span class="process__mark-label" id="processMarkLabel">Консультация</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. CTA -->
+  <section class="cta-final">
+    <div class="cta-final__glow" aria-hidden="true"></div>
+    <div class="section__inner cta-final__inner" data-reveal>
+      <h2 class="cta-final__title">Ваш следующий автомобиль<br>уже ждёт встречи.</h2>
+      <button class="btn btn--amber btn--lg btn--magnetic" data-open-consult>Записаться на персональную консультацию</button>
+    </div>
+  </section>
+
+  <!-- 11. CONTACTS -->
+  <section class="contacts section" id="contacts">
+    <div class="section__inner contacts__grid">
+      <div class="contacts__info" data-reveal>
+        <p class="eyebrow">Контакты</p>
+        <h2 class="section__title">Бутик-шоурум</h2>
+        <address class="contacts__address">
+          Николоямская наб., 11<br>Москва, 109240
+        </address>
+        <p class="contacts__line"><a href="tel:+74950000000">+7 495 000-00-00</a></p>
+        <p class="contacts__line"><a href="mailto:hello@monolith.example">hello@monolith.example</a></p>
+        <div class="contacts__social">
+          <a href="#" aria-label="Telegram">Telegram</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+        </div>
+        <p class="contacts__hours">Пн–Сб · 10:00–21:00</p>
+      </div>
+      <div class="contacts__map" data-reveal-delay aria-label="Карта расположения шоурума MONOLITH">
+        <div class="contacts__map-visual">
+          <div class="map-grid" aria-hidden="true"></div>
+          <div class="map-pin" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section__inner footer__grid">
+    <span>© 2026 MONOLITH. Все права защищены.</span>
+    <div class="footer__links">
+      <a href="#">Политика конфиденциальности</a>
+      <a href="#">Условия использования</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Consultation modal -->
+<div class="modal" id="consultModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__backdrop" data-close-consult></div>
+  <div class="modal__panel">
+    <button class="modal__close" data-close-consult aria-label="Закрыть форму">✕</button>
+    <p class="eyebrow">Персональная консультация</p>
+    <h2 id="modalTitle" class="modal__title">Оставьте контакты — мы свяжемся в течение 15 минут.</h2>
+    <form class="modal__form" id="consultForm">
+      <label class="field">
+        <span>Имя</span>
+        <input type="text" name="name" autocomplete="name" required>
+      </label>
+      <label class="field">
+        <span>Телефон</span>
+        <input type="tel" name="phone" autocomplete="tel" required>
+      </label>
+      <label class="field">
+        <span>Интересующая модель</span>
+        <select name="model">
+          <option>VELOCE 918</option>
+          <option>ARGENTO GT</option>
+          <option>LUMEN ONE</option>
+          <option>Ещё не определился</option>
+        </select>
+      </label>
+      <button type="submit" class="btn btn--amber btn--full">Отправить заявку</button>
+      <p class="modal__note" id="modalNote" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
+
+<script src="2.js"></script>
+</body>
+</html>
